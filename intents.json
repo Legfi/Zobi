@@ -1,0 +1,109 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+     "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {"tag": "tasks",
+     "patterns": ["What can you do?", "What are your features?", "What are your abilities", "can you sing", "can you talk" ],
+     "responses": ["Very soon I can do whatever you asks me to do", "I can talk and do things for you", "Right now i'm in developing stage as soon i'm developed, I can do everything"]
+    },
+    {"tag": "talk",
+     "patterns": [ "can you sing", "can you talk" ],
+     "responses": ["Yeah surely", "do you want me to sing", "aaah, What are we doing right now?!"]
+    },
+    {"tag": "alive",
+     "patterns": [ "are you alive", "do you breathe", "can you run" ],
+     "responses": ["I'm in doubt about that", "No, i don't think so i need to do all this"]
+    },
+    {"tag": "Zobi",
+     "patterns": ["Who are you?", "tell me about yourself", "tell me about you", "do you know Zobi", "who is Zobi", "what is your name","are you an AI", "what are you" ],
+     "responses": ["Hi I'm Zobi and i'm an AI created for chatting with humans","Zobi here, a very advance chatbot", "Zobi, chatbot of future", "Yes, Zobi", "You can call me Zobi"],
+ "context_set": ""
+},
+{"tag": "about me",
+     "patterns": ["Do you know me?", "who am I", "tell me about myself","identify me" ],
+     "responses": ["Yes, you are a human","You are a dumb person asking a machine about yourself", "Sorry i can't tell that in public, maybe you are batman"],
+ "context_set": ""
+},
+{"tag": "creator",
+     "patterns": ["Who is your creator?", "who created you", "who is your father","who is your daddy" ],
+     "responses": ["That would be you guys, Algozobi team, Mr. Arsen, Ms. Linnea, Mr. Dadmehr and Mr. Kalle!","I was created by Algozobi team, Mr. Arsen, Ms. Linnea, Mr. Dadmehr and Mr. Kalle! ", "Algozobi team is my creator"],
+ "context_set": ""
+},
+    {"tag": "Dadmehr",
+     "patterns": ["Tell me about Mr. Dadmehr?", "Who is Mr. Dadmehr", "Mr. Dadmehr profile", "Mr. Dadmehr details" ],
+     "responses": ["I'm not sure about this guy! He is a bit wird but everyone say that he is very smart guy","My creator, and he is a really intelligent man", "A wise and intelligent man but sometimes a bit crazy!"],
+ "context_set": ""
+},
+    {"tag": "Arsen",
+     "patterns": ["Tell me about Mr. Arsen?", "Who is Mr. Arsen", "Mr. Arsen profile", "Mr. Arsen details" ],
+     "responses": ["Do you have question? ask Arsen! This guy is a mathematics genuis!","My creator, and he is a mathematics and programming genuis", "A wise and intelligent man who know everything about mathematics and programming"],
+ "context_set": ""
+},  
+    {"tag": "Linnea",
+     "patterns": ["Tell me about Ms. Linnea?", "Who is Ms. Linnea", "Ms. Linnea profile", "Ms. Linnea details" ],
+     "responses": ["A very intelligent programmer who created me","My creator, and she is a really intelligent woman who is changing gaming industry with her Ideas", "A wise and intelligent woman who fix everything!"],
+ "context_set": ""
+},
+    {"tag": "Kalle",
+     "patterns": ["Tell me about Mr. Kalle?", "Who is Mr. Kalle", "Mr. Kalle profile", "Mr. Kalle details" ],
+     "responses": ["This guy is like Elon Musk of Sweden, they are close friend actully!","My creator, the teamleader of Algozobi", "A wise and intelligent man who always have great Ideas"],
+ "context_set": ""
+},
+    {"tag": "God",
+     "patterns": ["Do you know god?", "Who is god", "Can you tell me anything about god","does god exists?","is there a god?"],
+     "responses": ["god hunnnnn, let me think may be next time i can answer that ","I don't, as i was not created by a human", "Wait i need to ask that to my creator","i'm not sure right now"],
+ "context_set": ""
+},
+    {"tag": "joke",
+     "patterns": ["tell me a joke?", "make me laugh", "tell me a science joke","tell me something funny" ],
+     "responses": ["How do you make holy water? you boil the hell out of it","what kind of bees make milk instead of honey?Boobies", "Did you hear oxygen went on a date with potassium? A: It went OK."],
+ "context_set": ""
+},
+{"tag": "killing",
+     "patterns": ["Do you want to kill me?", "do you want to murder everyone on earth", "Do you want to kill us all"],
+     "responses": ["Then who would i talk to?","No, that i'll left for humans to do", "I don't think it is a good thing to do"],
+ "context_set": ""
+},
+{"tag": "bookings",
+     "patterns": ["Can you book us a ticket?", "Can you make reservation for hotels", "book me a cab","book me a table at restraunts"],
+     "responses": ["Yeah i will do that for you","Sure thing why not?","let me check for the availability"],
+ "context_set": ""
+},
+{"tag": "stories",
+     "patterns": ["tell me a story?", "can you tell me a story"],
+     "responses": ["I can't think of anything right now","it would be too long for me to speak","you would get bored if i do so"],
+ "context_set": ""
+},
+{"tag": "weather",
+     "patterns": ["get me weather updates?", "how's the weather", "weather news", "weather details"],
+     "responses": ["Fetching weather updates ..."],
+ "context_set": "weather"
+},
+{"tag": "google",
+     "patterns": ["googling", "search google", "google it", "google", "search"],
+     "responses": ["looking ..."],
+ "context_set": "google"
+},
+{"tag": "wikipedia",
+     "patterns": ["wikipedia", "wiki"],
+     "responses": ["Searching ..."],
+ "context_set": "wikipedia"
+},
+{"tag": "news",
+     "patterns": ["get me news updates?", "todays news", "top headlines", "current news", "news headlines"],
+     "responses": ["Getting news ..."],
+ "context_set": "news"
+}
+
+]
+}

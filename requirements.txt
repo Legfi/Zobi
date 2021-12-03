@@ -1,4 +1,3 @@
-git+https://github.com/Legfi/Zobi.git
 discord.py==1.7.3
 nltk==3.6.5
 numpy==1.21.4

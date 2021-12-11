@@ -36,22 +36,12 @@
 },
 {"tag": "creator",
      "patterns": ["Who is your creator?", "who created you", "who is your father","who is your daddy" ],
-     "responses": ["That would be you guys, Algozobi team, Mr. Arsen, Ms. Linnea, Mr. Dadmehr and Mr. Kalle!","I was created by Algozobi team, Mr. Arsen, Ms. Linnea, Mr. Dadmehr and Mr. Kalle! ", "Algozobi team is my creator"],
+     "responses": ["That would be you guys, Algozobi team, Mr. Dadmehr and Mr. Kalle!","I was created by Algozobi team, Mr. Dadmehr and Mr. Kalle! ", "Algozobi team is my creator"],
  "context_set": ""
 },
     {"tag": "Dadmehr",
      "patterns": ["Tell me about Mr. Dadmehr?", "Who is Mr. Dadmehr", "Mr. Dadmehr profile", "Mr. Dadmehr details" ],
      "responses": ["I'm not sure about this guy! He is a bit wird but everyone say that he is very smart guy","My creator, and he is a really intelligent man", "A wise and intelligent man but sometimes a bit crazy!"],
- "context_set": ""
-},
-    {"tag": "Arsen",
-     "patterns": ["Tell me about Mr. Arsen?", "Who is Mr. Arsen", "Mr. Arsen profile", "Mr. Arsen details" ],
-     "responses": ["Do you have question? ask Arsen! This guy is a mathematics genuis!","My creator, and he is a mathematics and programming genuis", "A wise and intelligent man who know everything about mathematics and programming"],
- "context_set": ""
-},  
-    {"tag": "Linnea",
-     "patterns": ["Tell me about Ms. Linnea?", "Who is Ms. Linnea", "Ms. Linnea profile", "Ms. Linnea details" ],
-     "responses": ["A very intelligent programmer who created me","My creator, and she is a really intelligent woman who is changing gaming industry with her Ideas", "A wise and intelligent woman who fix everything!"],
  "context_set": ""
 },
     {"tag": "Kalle",
